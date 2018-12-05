@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2.4rem;
+}
+
+#row1 {
+  margin-top: 2.4rem;
+}
+
+#row3 {
+  margin-bottom: 2.4rem;
+}
+
+.drum-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px 1px 0 0;
+  border-color: #515151;
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+}
+
+.drum-pad:nth-of-type(3n+1) {
+  border-left-width: 1px;
+}
+
+#row3 .drum-pad {
+  border-bottom-width: 1px;
+}

@@ -1,0 +1,15 @@
+#display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastSound {
+  margin-top: 2.4rem;
+  background-color: #efefef;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
